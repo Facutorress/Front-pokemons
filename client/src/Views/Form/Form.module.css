@@ -1,0 +1,102 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.backgroundVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  opacity: 0.75;
+}
+.formSide {
+  width: 50%;
+}
+
+.previewSide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  
+}
+
+.cont {
+  text-align: center;
+  font-family: 'Titan One';
+}
+
+.formContainer {
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.imagee {
+  width: 400px;
+  height: 400px;
+}
+
+.formRow {
+  display: flexbox;
+  flex-direction: column;
+  margin-bottom: 15px;
+  font-family: 'Titan One';
+  font-size: 15px;
+}
+
+.label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input {
+  padding: 5px 10px;
+  border: 1px outset #00c468;
+  border-radius: 4px;
+}
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 5px;
+  font-family: 'Titan One';
+}
+
+.checkboxContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Esto crea 4 columnas de igual tamaño */
+  grid-gap: 10px; /* Espaciado entre elementos del grid */
+  width: 50%; /* Ancho del contenedor */
+  max-width: 800px; /* Ajusta este valor según prefieras */
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: 'Titan One';
+}
+
+.submitBtn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: 'Titan One';
+}
